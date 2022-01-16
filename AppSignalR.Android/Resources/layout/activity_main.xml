@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:gravity="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:text="@string/Estado"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conectarme"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        />
+    
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etConectarme"
+        android:layout_margin="20dip"
+        android:layout_gravity="center"
+        android:inputType="number"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnConectar"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:backgroundTint="@android:color/black"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dip"
+        android:text="Concentar"
+        />
+
+    
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:text="Escirbir mensaje"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etMensaje"
+        android:layout_margin="20dip"        
+        android:layout_gravity="center"
+        android:inputType="number"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMensaje"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:backgroundTint="@android:color/black"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dip"
+        android:text="Enviar a todos"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escirbir mensaje"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"        
+        android:layout_height="wrap_content"
+        android:id="@+id/etIdDispositivo"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:layout_margin="20dip"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnIdDispositivo"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:backgroundTint="@android:color/black"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dip"
+        android:text="Enviar al dispositivo"
+        />
+
+    
+
+</LinearLayout>
